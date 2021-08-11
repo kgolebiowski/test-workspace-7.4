@@ -1,0 +1,5 @@
+Bundle-Name: sample-74-react-portlet
+Bundle-SymbolicName: sample74.react.portlet
+Bundle-Version: 1.0.0
+Export-Package: sample74.react.portlet.constants
+Web-ContextPath: /sample-74-react-portlet

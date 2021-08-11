@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@clayui/date-picker": "^3.32.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "6.24.1",
+    "liferay-npm-bundler": "2.18.2"
+  },
+  "main": "lib/index.es.js",
+  "name": "sample-74-react-portlet",
+  "scripts": {
+    "build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
+  },
+  "version": "1.0.0"
+}
